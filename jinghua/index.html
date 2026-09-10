@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>警花王菲-角色档案、故事背景与相关作品资料介绍</title>
+<meta name="description" content="警花王菲角色资料页，整理警花王菲的人物设定、故事背景、常见出场作品、角色特点与观众常见问题，帮助你快速了解这一警匪题材中的女警形象。">
+<meta name="keywords" content="警花王菲,警花,女警角色,警匪题材,角色档案,人物介绍">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+:root{
+  --navy:#12233d;
+  --navy-2:#1c3a63;
+  --blue:#2f6fb5;
+  --blue-light:#e8f1fb;
+  --gold:#c8a24a;
+  --ink:#1d2530;
+  --ink-2:#4a5666;
+  --line:#dde4ee;
+  --bg:#f5f7fb;
+  --white:#ffffff;
+  --radius:14px;
+  --shadow:0 10px 30px rgba(18,35,61,.08);
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+  background:var(--bg);
+  color:var(--ink);
+  line-height:1.75;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+ul{list-style:none;}
+
+/* ===== 顶部条 ===== */
+.topbar{
+  background:var(--navy);
+  color:#c7d5e8;
+  font-size:13px;
+}
+.topbar .wrap{
+  display:flex;justify-content:space-between;align-items:center;
+  gap:12px;padding:8px 0;flex-wrap:wrap;
+}
+.topbar span.dot{color:var(--gold);}
+
+/* ===== 通用容器 ===== */
+.wrap{
+  width:100%;
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 20px;
+}
+
+/* ===== 页眉 ===== */
+header.site-head{
+  background:linear-gradient(135deg,var(--navy) 0%,var(--navy-2) 55%,#24507f 100%);
+  color:#fff;
+  position:relative;
+  overflow:hidden;
+}
+header.site-head::after{
+  content:"";
+  position:absolute;
+  right:-120px;top:-120px;
+  width:420px;height:420px;
+  border-radius:50%;
+  background:radial-gradient(circle,rgba(200,162,74,.28),transparent 65%);
+  pointer-events:none;
+}
+.head-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:20px;padding:18px 0;
+  position:relative;z-index:2;
+  flex-wrap:wrap;
+}
+.brand{
+  display:flex;align-items:center;gap:12px;
+}
+.brand-mark{
+  width:46px;height:46px;border-radius:12px;
+  background:linear-gradient(140deg,var(--gold),#e0c078);
+  color:var(--navy);
+  display:flex;align-items:center;justify-content:center;
+  font-weight:800;font-size:20px;
+  letter-spacing:1px;
+  box-shadow:0 6px 18px rgba(200,162,74,.35);
+}
+.brand-text b{
+  display:block;font-size:20px;letter-spacing:2px;
+}
+.brand-text small{
+  display:block;font-size:12px;color:#a9c1de;letter-spacing:1px;
+}
+nav.main-nav ul{
+  display:flex;gap:6px;flex-wrap:wrap;
+}
+nav.main-nav a{
+  display:block;
+  padding:8px 14px;
+  border-radius:999px;
+  font-size:14.5px;
+  color:#d7e3f2;
+  transition:.25s;
+}
+nav.main-nav a:hover,
+nav.main-nav a.active{
+  background:rgba(255,255,255,.14);
+  color:#fff;
+}
+
+/* ===== Hero ===== */
+.hero{
+  position:relative;
+  z-index:2;
+  padding:34px 0 46px;
+  display:grid;
+  grid-template-columns:1.35fr .9fr;
+  gap:36px;
+  align-items:center;
+}
+.hero h1{
+  font-size:clamp(30px,4.4vw,46px);
+  line-height:1.25;
+  letter-spacing:2px;
+  margin-bottom:14px;
+}
+.hero h1 em{
+  font-style:normal;
+  color:var(--gold);
+}
+.hero p.lead{
+  color:#c3d4e8;
+  font-size:16.5px;
+  max-width:640px;
+  margin-bottom:22px;
+}
+.hero-tags{
+  display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px;
+}
+.hero-tags span{
+  font-size:13px;
+  padding:5px 13px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.28);
+  color:#dbe7f5;
+  background:rgba(255,255,255,.06);
+}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;}
+.btn{
+  display:inline-block;
+  padding:11px 26px;
+  border-radius:999px;
+  font-size:15px;
+  font-weight:600;
+  transition:.25s;
+  cursor:pointer;
+  border:none;
+}
+.btn-gold{
+  background:linear-gradient(135deg,var(--gold),#ddba6b);
+  color:#20180a;
+  box-shadow:0 8px 22px rgba(200,162,74,.35);
+}
+.btn-gold:hover{transform:translateY(-2px);}
+.btn-ghost{
+  background:transparent;
+  color:#e3ecf7;
+  border:1px solid rgba(255,255,255,.35);
+}
+.btn-ghost:hover{background:rgba(255,255,255,.12);}
+
+/* 档案卡 */
+.id-card{
+  background:rgba(255,255,255,.07);
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:18px;
+  padding:24px;
+  backdrop-filter:blur(6px);
+}
+.id-card h3{
+  font-size:16px;
+  letter-spacing:2px;
+  color:var(--gold);
+  margin-bottom:16px;
+  padding-bottom:12px;
+  border-bottom:1px dashed rgba(255,255,255,.22);
+}
+.id-card dl{
+  display:grid;
+  grid-template-columns:78px 1fr;
+  gap:10px 14px;
+  font-size:14.5px;
+}
+.id-card dt{color:#9fb6d3;}
+.id-card dd{color:#eaf2fb;}
+.id-card .note{
+  margin-top:16px;
+  font-size:12.5px;
+  color:#93aac8;
+  line-height:1.6;
+}
+
+/* ===== 主内容布局 ===== */
+main{padding:44px 0 20px;}
+.layout{
+  display:grid;
+  grid-template-columns:1fr 320px;
+  gap:36px;
+  align-items:start;
+}
+section.block{margin-bottom:46px;}
+.sec-head{
+  display:flex;align-items:flex-end;justify-content:space-between;
+  gap:16px;margin-bottom:20px;
+  border-bottom:2px solid var(--line);
+  padding-bottom:12px;
+  flex-wrap:wrap;
+}
+.sec-head h2{
+  font-size:22px;
+  letter-spacing:1px;
+  position:relative;
+  padding-left:14px;
+}
+.sec-head h2::before{
+  content:"";
+  position:absolute;left:0;top:50%;transform:translateY(-50%);
+  width:5px;height:20px;border-radius:3px;
+  background:linear-gradient(180deg,var(--gold),var(--blue));
+}
+.sec-head .sub{
+  font-size:13.5px;color:var(--ink-2);
+}
+
+/* 简介段落 */
+.intro-text p{
+  color:#333c49;
+  margin-bottom:14px;
+  font-size:15.5px;
+}
+.intro-text strong{color:var(--navy-2);}
+
+/* 特点卡片 */
+.feature-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  gap:18px;
+}
+.feature-card{
+  background:var(--white);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:22px;
+  box-shadow:var(--shadow);
+  transition:.25s;
+}
+.feature-card:hover{
+  transform:translateY(-3px);
+  border-color:#c3d6ec;
+}
+.feature-card .idx{
+  font-size:13px;
+  font-weight:700;
+  color:var(--blue);
+  letter-spacing:2px;
+  margin-bottom:8px;
+}
+.feature-card h3{
+  font-size:17px;
+  margin-bottom:8px;
+}
+.feature-card p{
+  font-size:14.5px;
+  color:var(--ink-2);
+}
+
+/* 作品/出场列表 */
+.works-list{
+  display:grid;
+  gap:14px;
+}
+.work-item{
+  background:var(--white);
+  border:1px solid var(--line);
+  border-left:4px solid var(--blue);
+  border-radius:10px;
+  padding:16px 20px;
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  align-items:center;
+  flex-wrap:wrap;
+  transition:.2s;
+}
+.work-item:hover{
+  background:var(--blue-light);
+  border-left-color:var(--gold);
+}
+.work-item h3{
+  font-size:16px;
+  margin-bottom:4px;
+}
+.work-item p{
+  font-size:13.5px;
+  color:var(--ink-2);
+}
+.work-item .tag{
+  font-size:12.5px;
+  padding:4px 12px;
+  border-radius:999px;
+  background:var(--blue-light);
+  color:var(--blue);
+  white-space:nowrap;
+}
+
+/* 时间线 */
+.timeline{
+  border-left:2px solid var(--line);
+  padding-left:22px;
+  margin-left:6px;
+}
+.timeline li{
+  position:relative;
+  padding-bottom:22px;
+}
+.timeline li:last-child{padding-bottom:0;}
+.timeline li::before{
+  content:"";
+  position:absolute;
+  left:-29px;top:8px;
+  width:12px;height:12px;
+  border-radius:50%;
+  background:var(--white);
+  border:3px solid var(--blue);
+}
+.timeline h3{
+  font-size:15.5px;
+  margin-bottom:4px;
+}
+.timeline p{
+  font-size:14px;
+  color:var(--ink-2);
+}
+
+/* FAQ */
+.faq-item{
+  background:var(--white);
+  border:1px solid var(--line);
+  border-radius:10px;
+  margin-bottom:12px;
+  overflow:hidden;
+}
+.faq-item summary{
+  cursor:pointer;
+  padding:16px 20px;
+  font-size:15.5px;
+  font-weight:600;
+  list-style:none;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  transition:.2s;
+}
+.faq-item summary::-webkit-details-marker{display:none;}
+.faq-item summary::after{
+  content:"+";
+  font-size:20px;
+  color:var(--blue);
+  font-weight:400;
+  flex-shrink:0;
+}
+.faq-item[open] summary{color:var(--blue);background:var(--blue-light);}
+.faq-item[open] summary::after{content:"−";}
+.faq-item .answer{
+  padding:4px 20px 18px;
+  font-size:14.5px;
+  color:var(--ink-2);
+}
+
+/* 侧栏 */
+aside .side-card{
+  background:var(--white);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:22px;
+  margin-bottom:22px;
+  box-shadow:var(--shadow);
+}
+aside .side-card h3{
+  font-size:16px;
+  letter-spacing:1px;
+  margin-bottom:14px;
+  padding-bottom:10px;
+  border-bottom:1px solid var(--line);
+  color:var(--navy-2);
+}
+aside .side-card h3::before{
+  content:"◆";
+  color:var(--gold);
+  font-size:11px;
+  margin-right:7px;
+}
+.side-list li{
+  font-size:14.5px;
+  padding:9px 0;
+  border-bottom:1px dashed var(--line);
+  color:var(--ink-2);
+  display:flex;
+  gap:10px;
+}
+.side-list li:last-child{border-bottom:none;}
+.side-list li b{color:var(--blue);font-weight:600;}
+.side-tip{
+  font-size:13.5px;
+  color:var(--ink-2);
+  line-height:1.8;
+}
+.side-tip em{
+  font-style:normal;
+  color:var(--navy-2);
+  font-weight:600;
+}
+.keyword-box{
+  display:flex;flex-wrap:wrap;gap:8px;
+}
+.keyword-box span{
+  font-size:13px;
+  padding:5px 12px;
+  border-radius:6px;
+  background:var(--blue-light);
+  color:var(--blue);
+}
+
+/* 页脚 */
+footer.site-foot{
+  background:var(--navy);
+  color:#9fb3cc;
+  margin-top:40px;
+  padding:40px 0 22px;
+  font-size:14px;
+}
+.foot-grid{
+  display:grid;
+  grid-template-columns:1.4fr 1fr 1fr;
+  gap:30px;
+  padding-bottom:26px;
+  border-bottom:1px solid rgba(255,255,255,.12);
+}
+.foot-grid h4{
+  color:#fff;
+  font-size:15px;
+  margin-bottom:12px;
+  letter-spacing:1px;
+}
+.foot-grid p{font-size:13.5px;line-height:1.85;}
+.foot-grid li{
+  font-size:13.5px;
+  padding:4px 0;
+}
+.foot-grid a:hover{color:var(--gold);}
+.copyright{
+  padding-top:18px;
+  text-align:center;
+  font-size:12.5px;
+  color:#7d92ad;
+}
+
+/* 响应式 */
+@media (max-width:960px){
+  .layout{grid-template-columns:1fr;}
+  .hero{grid-template-columns:1fr;gap:26px;padding-bottom:38px;}
+  .foot-grid{grid-template-columns:1fr 1fr;}
+}
+@media (max-width:640px){
+  body{font-size:15px;}
+  .head-inner{flex-direction:column;align-items:flex-start;}
+  nav.main-nav ul{gap:4px;}
+  nav.main-nav a{padding:7px 11px;font-size:13.5px;}
+  .hero h1{letter-spacing:1px;}
+  .hero{padding:26px 0 34px;}
+  .id-card{padding:18px;}
+  .id-card dl{grid-template-columns:70px 1fr;font-size:13.5px;}
+  .sec-head h2{font-size:19px;}
+  .work-item{flex-direction:column;align-items:flex-start;gap:8px;}
+  .foot-grid{grid-template-columns:1fr;gap:22px;}
+  main{padding:30px 0 10px;}
+  section.block{margin-bottom:36px;}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span>警匪题材 · 女性警察角色资料整理</span>
+    <span><span class="dot">●</span> 内容以公开可查的角色设定与作品信息为准</span>
+  </div>
+</div>
+
+<header class="site-head">
+  <div class="wrap">
+    <div class="head-inner">
+      <div class="brand">
+        <div class="brand-mark">警</div>
+        <div class="brand-text">
+          <b>警花王菲</b>
+          <small>角色档案 · 资料索引</small>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#intro" class="active">角色简介</a></li>
+          <li><a href="#traits">人物特点</a></li>
+          <li><a href="#works">相关作品</a></li>
+          <li><a href="#context">题材背景</a></li>
+          <li><a href="#faq">常见问题</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="hero">
+      <div>
+        <h1>警花王菲：<em>警匪题材中的女警形象</em>资料汇总</h1>
+        <p class="lead">
+          “警花王菲”是网络上围绕女性警察角色出现的一个检索词。本页把这一称呼可能指向的角色设定、故事背景、常见出场作品以及观众最常提出的疑问整理在一起，方便你快速建立整体认知，而不是在零散信息之间反复跳转。
+        </p>
+        <div class="hero-tags">
+          <span>女警角色</span>
+          <span>警匪 / 刑侦题材</span>
+          <span>人物设定</span>
+          <span>作品索引</span>
+        </div>
+        <div class="hero-actions">
+          <a href="#intro" class="btn btn-gold">查看角色简介</a>
+          <a href="#faq" class="btn btn-ghost">常见问题解答</a>
+        </div>
+      </div>
+
+      <div class="id-card">
+        <h3>角 色 档 案 速 览</h3>
+        <dl>
+          <dt>常用称呼</dt>
+          <dd>警花王菲</dd>
+          <dt>身份定位</dt>
+          <dd>女性警务人员角色</dd>
+          <dt>题材类型</dt>
+          <dd>警匪、刑侦、都市</dd>
+          <dt>形象标签</dt>
+          <dd>干练、果敢、职业感</dd>
+          <dt>常见主题</dt>
+          <dd>案件侦办、正义与责任</dd>
+        </dl>
+        <p class="note">
+          说明：不同作品中的角色设定可能存在差异，本页仅作通用性整理，具体情节请以对应作品的实际内容为准。
+        </p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="layout">
+
+      <div class="content-col">
+
+        <!-- 角色简介 -->
+        <section class="block" id="intro">
+          <div class="sec-head">
+            <h2>角色简介</h2>
+            <span class="sub">先弄清楚“警花王菲”指的是什么</span>
+          </div>
+          <div class="intro-text">
+            <p>
+              在中文网络语境里，<strong>“警花”</strong>通常是对女性警察的一种通俗称呼，带有形象与职业双重含义：一方面强调警察这一职业身份，另一方面也指角色外形与气质上的辨识度。当“警花”与具体名字组合时，多数情况下指向的是某部影视、小说或网络作品中登场的女性警务角色。
+            </p>
+            <p>
+              <strong>“警花王菲”</strong>因此可以理解为：一位名叫王菲的女性警察角色。她可能出现在刑侦剧、警匪题材小说、网络短剧或相关衍生内容中，承担案件侦办、卧底侦查、技术支援或团队协调等不同职能。由于不同来源对角色的刻画重点不同，观众检索这一关键词时，往往想确认三件事：这个角色出自哪部作品、她在故事中是什么定位、以及她的性格与经历有什么特别之处。
+            </p>
+            <p>
+              需要说明的是，网络上的角色信息常常存在同名、混用或二次创作的情况，同一称呼可能被不同作品借用。因此，本页不把某一部具体作品当作唯一答案，而是从“女警角色”这一类型出发，梳理这类角色常见的设定逻辑与看点，帮助你在看到具体作品时能够更快判断。
+            </p>
+          </div>
+        </section>
+
+        <!-- 人物特点 -->
+        <section class="block" id="traits">
+          <div class="sec-head">
+            <h2>人物特点</h2>
+            <span class="sub">这类女警角色通常具备的几个维度</span>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="idx">01 / 职业</div>
+              <h3>专业能力在线</h3>
+              <p>作为警务人员，角色通常具备侦查、审讯、格斗或技术分析等一项或多项专业能力，这是她推动剧情的基础，也是观众判断角色是否“立得住”的关键。</p>
+            </article>
+            <article class="feature-card">
+              <div class="idx">02 / 性格</div>
+              <h3>果敢与细腻并存</h3>
+              <p>警花类角色往往既有行动上的果断，也有观察细节时的敏锐。刚柔两种特质交替出现，使人物不至于扁平，也更容易在紧张剧情中制造反差。</p>
+            </article>
+            <article class="feature-card">
+              <div class="idx">03 / 关系</div>
+              <h3>团队中的关键一环</h3>
+              <p>她通常不是孤立存在的个体，而是与搭档、上级或线人形成互动关系。这些关系既提供情感支点，也常常成为剧情转折的触发点。</p>
+            </article>
+            <article class="feature-card">
+              <div class="idx">04 / 主题</div>
+              <h3>正义与代价</h3>
+              <p>警匪题材的核心往往不是单纯的破案，而是角色在职责、情感与个人安危之间的取舍。女警角色常被用来承载这类主题的表达。</p>
+            </article>
+          </div>
+        </section>
+
+        <!-- 相关作品 -->
+        <section class="block" id="works">
+          <div class="sec-head">
+            <h2>相关作品与出场方向</h2>
+            <span class="sub">按内容载体分类的检索方向</span>
+          </div>
+          <div class="works-list">
+            <article class="work-item">
+              <div>
+                <h3>刑侦 / 警匪类影视剧</h3>
+                <p>最常见的载体。女警角色多以专案组成员、技术骨干或基层民警身份出现，剧情围绕案件推进展开。</p>
+              </div>
+              <span class="tag">影视剧</span>
+            </article>
+            <article class="work-item">
+              <div>
+                <h3>网络小说与连载故事</h3>
+                <p>在文字载体中，角色内心描写更充分，女警形象往往有更完整的成长线与情感线，篇幅也更长。</p>
+              </div>
+              <span class="tag">小说</span>
+            </article>
+            <article class="work-item">
+              <div>
+                <h3>短剧与网络视频内容</h3>
+                <p>节奏快、单集时长短，角色设定通常更集中，突出某一种鲜明特质，适合碎片化观看。</p>
+              </div>
+              <span class="tag">短剧</span>
+            </article>
+            <article class="work-item">
+              <div>
+                <h3>同人创作与角色讨论</h3>
+                <p>围绕角色展开的二次创作、人物分析帖与讨论社区，是了解观众评价和角色延伸解读的重要来源。</p>
+              </div>
+              <span class="tag">社区讨论</span>
+            </article>
+          </div>
+        </section>
+
+        <!-- 题材背景 -->
+        <section class="block" id="context">
+          <div class="sec-head">
+            <h2>题材背景与观看思路</h2>
+            <span class="sub">理解角色之前，先理解她所处的类型框架</span>
+          </div>
+          <ul class="timeline">
+            <li>
+              <h3>类型框架：警匪与刑侦的差别</h3>
+              <p>警匪题材侧重正邪对抗与行动场面，刑侦题材更偏向推理与证据链。女警角色在两类作品中的功能不同：前者强调执行力与临场反应，后者强调观察力与逻辑判断。</p>
+            </li>
+            <li>
+              <h3>角色功能：不只是“女性视角”</h3>
+              <p>把女警角色简单理解为提供情感线或调剂气氛，是一种常见的误读。成熟的角色设计会让她在关键节点承担实际作用，例如突破僵局、发现被忽略的线索，或是在团队内部分歧时提供另一种判断。</p>
+            </li>
+            <li>
+              <h3>评价维度：如何判断角色是否成立</h3>
+              <p>可以从三点观察：她的专业能力是否有具体呈现、她的选择是否符合人物逻辑、她的成长是否有可追溯的变化。这三点比单纯讨论外形更有参考价值。</p>
+            </li>
+            <li>
+              <h3>检索建议：确认信息来源</h3>
+              <p>由于同名角色较多，检索时建议同时加入作品名、演员名或平台名等限定词，并优先参考官方简介与正规平台的资料页，减少被不准确信息误导的可能。</p>
+            </li>
+          </ul>
+        </section>
+
+        <!-- FAQ -->
+        <section class="block" id="faq">
+          <div class="sec-head">
+            <h2>常见问题</h2>
+            <span class="sub">关于“警花王菲”的高频疑问</span>
+          </div>
+
+          <details class="faq-item" open>
+            <summary>“警花王菲”具体出自哪部作品？</summary>
+            <div class="answer">
+              目前网络上这一称呼存在多种指向，可能是不同作品中的角色被使用相同或相近的名字。由于缺乏统一的权威出处，本页不指定某单一作品作为答案。如果你手上有具体线索，建议结合作品名、播出平台或演员信息进一步核对。
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>“警花”这个词本身是什么意思？</summary>
+            <div class="answer">
+              “警花”是中文里对女性警察的通俗称呼，带有一定的褒义色彩，通常用于强调职业身份与个人形象的结合。它并非正式职务名称，更多出现在媒体报道、影视宣传和日常口语中。
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>为什么这类角色容易受到关注？</summary>
+            <div class="answer">
+              一方面，警察职业本身带有紧张感与责任感，容易产生戏剧冲突；另一方面，女性身份与高强度职业之间的张力，为角色塑造提供了更多层次。观众关注的点，往往集中在角色如何在压力下做出选择。
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>想找同类角色，可以怎么检索？</summary>
+            <div class="answer">
+              可以尝试组合关键词，例如“女警 刑侦 角色”“警匪剧 女主角”“女警 成长线”等，再结合具体平台筛选。相比单一名字，加入题材词和作品类型词，能明显提高检索结果的准确度。
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>本页的信息可靠吗？</summary>
+            <div class="answer">
+              本页内容以类型化的角色分析为主，不编造具体剧情、演员、播出时间等无法确认的信息。涉及具体作品的细节，请以官方发布或正规平台的资料为准。
+            </div>
+          </details>
+        </section>
+
+      </div>
+
+      <!-- 侧栏 -->
+      <aside>
+        <div class="side-card">
+          <h3>快速导航</h3>
+          <ul class="side-list">
+            <li><b>角色简介</b> 这一称呼的基本含义</li>
+            <li><b>人物特点</b> 四个常见塑造维度</li>
+            <li><b>相关作品</b> 按载体划分的检索方向</li>
+            <li><b>题材背景</b> 警匪与刑侦的类型差异</li>
+            <li><b>常见问题</b> 高频疑问集中解答</li>
+          </ul>
+        </div>
+
+        <div class="side-card">
+          <h3>检索小提示</h3>
+          <p class="side-tip">
+            搜索角色信息时，建议使用<em>“角色名 + 作品名”</em>或<em>“角色名 + 演员名”</em>的组合方式。单纯输入角色名，容易得到同名或无关结果，反而增加筛选成本。
+          </p>
+        </div>
+
+        <div class="side-card">
+          <h3>相关关键词</h3>
+          <div class="keyword-box">
+            <span>警花</span>
+            <span>女警角色</span>
+            <span>警匪题材</span>
+            <span>刑侦剧</span>
+            <span>人物设定</span>
+            <span>角色档案</span>
+            <span>正义主题</span>
+          </div>
+        </div>
+
+        <div class="side-card">
+          <h3>内容说明</h3>
+          <p class="side-tip">
+            本页为角色类型资料整理，不涉及具体剧集情节的完整复述，也不提供任何资源下载或观看链接。所有分析均基于公开的类型化认知，供参考使用。
+          </p>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>关于本页</h4>
+        <p>围绕“警花王菲”这一检索词整理的角色资料页，从类型化角度梳理女警角色的设定逻辑、常见看点与检索方法，帮助读者建立清晰认知。</p>
+      </div>
+      <div>
+        <h4>内容板块</h4>
+        <ul>
+          <li><a href="#intro">角色简介</a></li>
+          <li><a href="#traits">人物特点</a></li>
+          <li><a href="#works">相关作品</a></li>
+          <li><a href="#context">题材背景</a></li>
+          <li><a href="#faq">常见问题</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>阅读建议</h4>
+        <ul>
+          <li>先看角色简介建立整体印象</li>
+          <li>再结合题材背景理解设定</li>
+          <li>具体作品信息以官方为准</li>
+          <li>检索时加入限定词更准确</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      © 警花王菲角色资料页 · 内容仅供学习与参考，具体作品信息请以官方发布为准
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var links = document.querySelectorAll('nav.main-nav a');
+  var sections = [];
+  links.forEach(function(a){
+    var id = a.getAttribute('href').replace('#','');
+    var el = document.getElementById(id);
+    if(el){ sections.push({link:a, el:el}); }
+  });
+  function onScroll(){
+    var pos = window.scrollY + 140;
+    var current = sections.length ? sections[0] : null;
+    sections.forEach(function(item){
+      if(item.el.offsetTop <= pos){ current = item; }
+    });
+    links.forEach(function(a){ a.classList.remove('active'); });
+    if(current){ current.link.classList.add('active'); }
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+})();
+</script>
+
+</body>
+  </html>
